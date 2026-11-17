@@ -5,6 +5,14 @@ div.stickyBar {
     background-color: #ffffff;
     border: 1px solid #43B2CC;
 }
+.stickyBar-hover {
+    position: sticky;
+    top:0;
+    padding: 10px;
+    background-color: #43B2CC;
+    color: #ffffff;
+    border: 1px solid #43B2CC;
+}
 
 .flex-wrapper {
     display: flex;
@@ -46,3 +54,4 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
 }
+

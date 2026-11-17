@@ -1,1 +1,26 @@
 // yeah ik it cringe
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>???</title>
+</head>
+<body>
+    <button id="urlRedirect" href="https://www.google.com">😶‍🌫️</button>
+    <button id="urlChanger">😢</button>
+    <script>
+        const urlRedirectButton = document.querySelector("#urlRedirect");
+        const urlChangerButton = document.querySelector("#urlChanger");
+
+        urlRedirectButton.addEventListener("click", () => {
+            window.location.href = "https://www.google.com";
+        });
+
+        urlChangerButton.addEventListener("click", () => {
+            urlRedirectButton.setAttribute("href", "https://www.youtube.com");
+            alert("The URL has been changed to 👁️👄👁️");
+        });
+        </script>
+</body>
+</html>
