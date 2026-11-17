@@ -1,0 +1,12 @@
+
+{
+    "favorites": [
+        {"Favorite type": "Food", "Favorite thing": "Pizza"},
+        {"Favorite type": "Drink", "Favorite thing": "Water"},
+        {"Favorite type": "Dessert", "Favorite thing": "Ice Cream"},
+        {"Favorite type": "Movie", "Favorite thing": "Interstellar"},
+        {"Favorite type": "Color", "Favorite thing": "Oceanic Blue, Pastel blue"},
+        {"Favorite type": "Hobby", "Favorite thing": "Gaming"}
+    ],
+    "personality": "I am a passionate and dedicated individual with a love for learning and exploring new ideas. I thrive in collaborative environments and enjoy working on projects that challenge me to grow both personally and professionally."
+}

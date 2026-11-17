@@ -4,17 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/css.css">
     <title>Document</title>
 </head>
 <body>
-    <div id="intro">
-        <div> <!-- left side of the page -->
-            <div id="welcome">
-                <h1>Welcome to My Website</h1>
-            </div>
+    <div id="intro"> 
+        <div id="welcome">
+            <h1>Welcome to My Website</h1>
         </div>
-        <div> <!-- right side of the page -->
-            <img src="images/profile.jpg" alt="Profile Picture" id="profilePic">
+        <div class="flex-wrapper"> <!-- wrap parent to behave like row. -->
+            <div class="left-side">
+                <img src="https://fastly.picsum.photos/id/170/200/300.jpg?hmac=8MNcDgapCZN2mHu0jnLxPWkxuwz9rq4TMQfQsYTINCk" alt="some random line like arc raider" id="introPic">
+            </div>
+            <div class="right-side"> <!-- also here, we will add intro class too! -->
+            <img src="https://fastly.picsum.photos/id/558/200/200.jpg?hmac=tFHyh9KzOASFBog3Hpj6oSkBkBr90f67Yuejl0XnFDM" alt="Profile Picture" id="profilePic">
             <div id="personality">
                 <div class="Heading">
                     <h2>My Personality</h2>
@@ -24,14 +27,18 @@
                 </div>
             </div>
         </div>
+        </div>
+        
     </div>
     <!-------------Sticky Bar------------------>
     <div class="stickyBar">
-        <script src="js/stickyBar.js"></script>
+        <!-- <script src="js/stickyBar.js"></script> -->
+         <span id="stickyBarText">This is a sticky bar. It will stay at the top of the page when you scroll down.</span>
     </div>
     <!-------------Sticky Bar------------------>
-    <div id="myFavorite">
-        <div> <!-- left side of page -->
+    
+    <div id="myFavorite" class="flex-wrapper"> 
+        <div class="left-side"> <!-- left side of page -->
             <div class="Heading"> <!-- i might add another class that add background color to the heading -->
                 <h2>My Favorite Things</h2>
             </div>
@@ -44,11 +51,14 @@
                 </ul>
             </div>
         </div>
-        <div> <!-- right side of page -->
-            <img src="images/favorite.jpg" alt="Favorite Things" id="favoritePic">
-            <img src="images/favorite.jpg" alt="Favorite Things" id="favoritePic">
-            <img src="images/favorite.jpg" alt="Favorite Things" id="favoritePic">
+        <div class="right-side column"> <!-- right side of page -->
+            <div class="favImage column">
+                <img src="images/favorite.jpg" alt="Favorite Things" id="favoritePic" class="away-right mini-image">
+                <img src="images/favorite.jpg" alt="Favorite Things" id="favoritePic" class="away-left mini-image">
+                <img src="images/favorite.jpg" alt="Favorite Things" id="favoritePic" class="away-right mini-image">
+            </div>
         </div>
     </div>
+    
 </body>
 </html>
