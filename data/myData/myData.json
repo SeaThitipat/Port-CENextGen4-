@@ -1,12 +1,17 @@
 
 {
     "favorites": [
-        {"Favorite type": "Food", "Favorite thing": "Pizza"},
+        {"Favorite type": "Food", "Favorite thing": "KaopadPu"},
         {"Favorite type": "Drink", "Favorite thing": "Water"},
-        {"Favorite type": "Dessert", "Favorite thing": "Ice Cream"},
+        {"Favorite type": "Dessert", "Favorite thing": "Bread"},
         {"Favorite type": "Movie", "Favorite thing": "Interstellar"},
+        {"Favorite type": "Anime", "Favorite thing": "Lycoris Recoil"},
         {"Favorite type": "Color", "Favorite thing": "Oceanic Blue, Pastel blue"},
         {"Favorite type": "Hobby", "Favorite thing": "Gaming"}
     ],
-    "personality": "I am a passionate and dedicated individual with a love for learning and exploring new ideas. I thrive in collaborative environments and enjoy working on projects that challenge me to grow both personally and professionally."
+    "personality": "I am a passionate and dedicated individual with a love for learning and exploring new ideas. I thrive in collaborative environments and enjoy working on projects that challenge me to grow both personally and professionally.",
+    "portfolio": [
+        {"Project Name": "Portfolio Website", "Description": "This is my personal portfolio website that collects my past work."},
+        {"Project Name": "Game shungjampen", "Description": "A puzzle game you roleplay as a broke man who desparetly need money so he go to gorvernment and show fake engineer certificate and recieve a job to go fixing in one village."}
+    ]
 }
