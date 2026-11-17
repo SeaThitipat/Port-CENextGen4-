@@ -21,6 +21,20 @@ div.stickyBar {
 .left-side {
     flex: 40;
 }
+.left-side img {
+    max-width: 75%;
+    width: 350px;
+    min-width: 150px;
+    height: auto;
+}
+
+#myFavorite .left-side .Heading {
+    background-color: #59CF8E;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-right: 35%;
+    padding: 10px;
+}
 
 #intro .flex-wrapper .right-side {
     flex: 60;
@@ -52,6 +66,26 @@ div.stickyBar {
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #FAEFDE;
+}
+
+h1 {
+    background-color: #43B2CC;
+    color: #ffffff;
+    max-width:70%;
+    padding: 10px;
+}
+
+#personality .Heading {
+    background-color: #A32FA1;
+    color: #ffffff;
+    padding: 1px;
+    text-align: right;
+    margin-left: 35%;
+    margin-top: 10px;
+}
+#personality .Content {
+    background-color: #C2C2C2;
+    padding: 10px;
 }
 

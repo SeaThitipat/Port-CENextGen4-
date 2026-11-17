@@ -7,20 +7,14 @@
     <title>???</title>
 </head>
 <body>
-    <button id="urlRedirect" href="https://www.google.com">😶‍🌫️</button>
-    <button id="urlChanger">😢</button>
+    <button id="urlRedirect" onclick="window.location.href='https://google.com'">😶‍🌫️</button>
+    <button id="urlChanger" onclick="">😢</button>
     <script>
-        const urlRedirectButton = document.querySelector("#urlRedirect");
         const urlChangerButton = document.querySelector("#urlChanger");
-
-        urlRedirectButton.addEventListener("click", () => {
-            window.location.href = "https://www.google.com";
-        });
-
+        const urlRedirectButton = document.querySelector("#urlRedirect");
         urlChangerButton.addEventListener("click", () => {
-            urlRedirectButton.setAttribute("href", "https://www.youtube.com");
-            alert("The URL has been changed to 👁️👄👁️");
+            urlRedirectButton.setAttribute("onclick", "window.location.href = 'https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/reel/Dcj_jgqoHU9/&ved=2ahUKEwjs4Mul046YAxXtkOEIHcxpPDAQtwJ6BAgSEAI&usg=AOvVaw08r1gJmQZga7SsqjrImeYQ';");
         });
-        </script>
+    </script>
 </body>
 </html>
